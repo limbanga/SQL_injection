@@ -7,6 +7,7 @@ CREATE TABLE users (
 );
 
 INSERT INTO users (username, password) VALUES
+('admin', 'password123'),
 ('alice', 'password123'),
 ('bob', 'securepass'),
 ('eve', 'hackerpass');
